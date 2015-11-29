@@ -59,5 +59,5 @@ Github:
 
 Travis Integration:
 -------------------
-Intergation Done @ [![Build Status](https://travis-ci.org/senthilporunan/atom-cubic-bezier.svg?branch=master)](https://travis-ci.org/senthilporunan/atom-cubic-bezier)
+Intergation Done
 
