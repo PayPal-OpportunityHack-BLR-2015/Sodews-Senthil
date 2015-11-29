@@ -55,8 +55,9 @@ Github:
 * Ramsankar - rbose
 * Mayukh - mayukhr
 * Chanden - chandenjade
+* Prince  - princejwesley
 
 Travis Integration:
 -------------------
-Intergation Done 
+Intergation Done @ [![Build Status](https://travis-ci.org/senthilporunan/atom-cubic-bezier.svg?branch=master)](https://travis-ci.org/senthilporunan/atom-cubic-bezier)
 
