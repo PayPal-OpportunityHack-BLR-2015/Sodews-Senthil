@@ -4,6 +4,10 @@ SODEWS - Society for the Development of Economically Weaker Sections
 
 Brief Overview :
 ----------------
+Demo:
+-----
+
+![Demo](https://raw.githubusercontent.com/PayPal-OpportunityHack-BLR-2015/Sodews-Senthil/master/public/assets/resources/paws.gif)
 
 *Activities:*
 -----------
