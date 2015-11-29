@@ -1,15 +1,31 @@
- 		
+
 
 <div class="col-lg-9 ">              
 
 	<h3> {{child.name}}</h3>
+<div class="row">
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc" >
+  <h4>Educational Details</h4><hr/>
+ <p> 
+    Birthday: {{child.birthday}} <br/>
+    School: {{child.school}} <br/>
+    Year: {{child.year}} <br/>
+    Grades: {{child.marks}} <br/>
+    <span ng-show="child.hobbies">Hobbies: {{child.hobbies}}</span>
+    <br/> 
+  <img src="assets/img/cake.png" class="birthdayCake" ng-show="{{child.isBirthdayToday}}">
+  </p>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc childPic" >
+  <img ng-src="{{child.photo}}">
 
-  <h4>Educational Details</h4>
+</div>
+</div> 
+
   
+ 
 
-
-
-  <h4>TODO items for {{child.name}} </h4>
+  <h4>TODO items for {{child.name}} </h4><hr/>
   <section class="task-panel tasks-widget">
     <div class="panel-heading">
      <div class="pull-left"><h5><i class="fa fa-tasks"></i> Todo List - Sortable Style</h5></div>
@@ -106,7 +122,7 @@
 
 
 <div ng-show="chunkedGallary">
-  <h3>Gallery</h3>
+  <h4>Gallery</h4><hr/>
 
   <div class="row mt" ng-repeat="rows in chunkedGallary">
    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc" ng-repeat="item in rows">
@@ -114,7 +130,7 @@
       <div class="project">
        <div class="photo-wrapper">
         <div class="photo">
-         <a class="fancybox" href=""><img class="img-responsive" src="{{item}}" alt=""></a>
+         <a class="fancybox" href="{{item}}"><img class="img-responsive" src="{{item}}" alt=""></a>
        </div>
        <div class="overlay"></div>
      </div>

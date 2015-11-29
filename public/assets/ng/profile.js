@@ -14,6 +14,8 @@ pawsApp.controller('profileCtrl', ["$scope","$rootScope", function($scope,$rootS
 	if($rootScope.child && $rootScope.child.gallary)
 		$scope.chunkedGallary = chunk($rootScope.child.gallary, 3);
 
+	$rootScope.child.isBirthdayToday = $rootScope.child.birthday == "29/11/2012";
+	
 	function chunk(arr, size) {
 	  var newArr = [];
 	  for (var i=0; i<arr.length; i+=size) {
@@ -21,6 +23,8 @@ pawsApp.controller('profileCtrl', ["$scope","$rootScope", function($scope,$rootS
 	  }
 	  return newArr;
 	}
+
+
 
 	
 }]);

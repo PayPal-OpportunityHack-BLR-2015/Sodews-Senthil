@@ -37,9 +37,16 @@ pawsApp.controller('shareToDonorsCtrl', ["$scope", "$http",  function($scope, $h
 
 
     $scope.uploadOnline = function() {
-        alert(111);
         if (navigator.onLine) {
-	    $http.post("/uploadImage", 
+					
+					$scope.admin = {};
+					var mail = localStorage.getItem("useremail");
+					var uname = mail ? mail.substring(0,mail.indexOf('@')): null;
+					$scope.itemsRef = new Firebase("https://sodews.firebaseio.com/updates/"+uname);
+					
+					var reminderText = {"child-id": '', "text": localStorage.getItem('wishMessage'), "pic": '', "timestamp": '2015-11-29'};
+					$scope.itemsRef.push(reminderText);
+					$http.post("/uploadImage", 
                 {
                     wishMessage: localStorage.getItem('wishMessage'),
                     requestMessage: localStorage.getItem('requestMessage'),
@@ -54,7 +61,6 @@ pawsApp.controller('shareToDonorsCtrl', ["$scope", "$http",  function($scope, $h
                          localStorage.removeItem('shareImage'); **/
                     }
                 }).success(function () {
-                alert('done');
 									localStorage.removeItem('wishMessage');
                          localStorage.removeItem('requestMessage');
                          localStorage.removeItem('shareImage');
