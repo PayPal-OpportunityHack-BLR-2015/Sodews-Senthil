@@ -1,4 +1,4 @@
-# Sodews-Senthil
+
 SODEWS - Society for the Development of Economically Weaker Sections
 ====================================================================
 
@@ -32,9 +32,9 @@ by means of:
 
 Technical stack:
 ----------------
-UI 	: Angular JS
-Server/backend: Node JS
-Data Base: FireBase
+* UI 	: Angular JS
+* Server/backend: Node JS
+* Data Base: FireBase
 
 Steps to build code:
 --------------------
@@ -43,17 +43,20 @@ No specific build is required as it is built on javasccript
 
 Contact details:
 ----------------
-Senthil - 97427 20663  - senthilraja39@gmail.com
-Ramsankar - 9841319300 - rams_green@yahoo.com
-Mayukh - 9049357351    - roy.mayukh@yahoo.in
-Chanden -8884999168    - 2chandanjade@gmail.com
-Prince - 9789852021    -
+* Senthil - 97427 20663  - senthilraja39@gmail.com
+* Ramsankar - 9841319300 - rams_green@yahoo.com
+* Mayukh - 9049357351    - roy.mayukh@yahoo.in
+* Chanden -8884999168    - 2chandanjade@gmail.com
+* Prince - 9789852021    - princejohnwesley@gmail.com
 
 Github:
 -------
-Senthil - senthilporunan
-Ramsankar - rbose
-Mayukh - mayukhr
-Chanden - chandenjade
+* Senthil - senthilporunan
+* Ramsankar - rbose
+* Mayukh - mayukhr
+* Chanden - chandenjade
 
+Travis Integration:
+-------------------
+Intergation Done 
 
