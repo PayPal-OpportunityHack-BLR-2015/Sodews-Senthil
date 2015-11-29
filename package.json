@@ -1,0 +1,37 @@
+{
+  "name": "paws",
+  "version": "0.0.1",
+  "description": "Application for Sodews",
+  "author": {
+    "name": "PayPal Hackathon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PayPal-OpportunityHack-BLR-2015/Sodews-Senthil"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "express": "~3.4.4",
+    "lodash": "*",
+    "uglify-js": "*",
+    "fs": "latest",
+    "underscore": "latest"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-postcss": "~0.1.0",
+    "grunt-contrib-cssmin": "*"
+  },
+  "bundleDependencies": [],
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "test": "echo 'test passed'"
+  }
+}

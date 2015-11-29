@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+				<script src="/assets/js/jquery.js"></script>
+				<link rel="stylesheet" href="/assets/css/materialize.css">
+			  <script src="/assets/js/materialize.min.js"></script>
+				<script>
+					function shareBtnSubmit() {
+						console.log('shareBtnSubmit');
+						alert('As Internet connection not available. We will provide only basic features');
+					}
+				</script>
+	</head>
+	<body>
+		      <section id="main-content">
+          <section class="wrapper" style="width: 80%;margin: auto;border: 1px solid black;border-radius: 6px;">
+          	<h3 style="color: limegreen;margin: 60px auto;width: 30%;"><i class="fa fa-angle-right"></i>Share to Donors</h3>
+          	
+          	<!-- BASIC FORM ELELEMNTS -->
+          	<div class="row mt">
+          		<div class="col-lg-12">
+                  <div class="form-panel" style="padding: 0 20px;">
+                  	  <h4 class="mb"><i class="fa fa-angle-right"></i> Message Sharing</h4>
+                      <form class="form-horizontal style-form" method="get">
+                          <div class="form-group">
+                              <label class="col-sm-2 col-sm-2 control-label">Wish Message</label>
+                              <div class="col-sm-10">
+                                  <input type="text" class="form-control" id="text-wish-msg">
+                                  <span class="help-block">.</span>
+                              </div>
+                          </div>
+                          <div class="form-group">
+                              <label class="col-sm-2 col-sm-2 control-label">Request Message</label>
+                              <div class="col-sm-10">
+                                  <input type="text" class="form-control" id="text-request-msg">
+                                  <span class="help-block">.</span>
+                              </div>
+                          </div>
+                      </form>
+											<label class="col-sm-2 col-sm-2 control-label">Share Image</label>
+											<!--form action="/file-upload" class="dropzone" id="my-awesome-dropzone"></form>
+											<input type="file" name="file" id="file-path-dropzone"/-->
+											<form  enctype="multipart/form-data">
+														<input type="file" name="files[]" id="filer_input" multiple="multiple">
+														<!--input type="submit" value="Submit"-->
+														<button id="share_to_donor_btn" type="submit" class="btn btn-theme" onclick='shareBtnSubmit()'>Submit</button>
+											</form>
+											
+											
+                  </div>
+          		</div><!-- col-lg-12-->      	
+          	</div><!-- /row -->
+
+		</section>
+	</section>
+	</body>
+</html>

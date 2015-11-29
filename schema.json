@@ -1,0 +1,193 @@
+{  
+   "donors":{  
+      "2chandanjade":{  
+         "name":"Ramesh Ramamurthi",
+         "mobile":"8884999168",
+         "photo":"url",
+         "childs":[  
+            {  
+               "name":"Swathi",
+               "email":"2chandanjade@gmail.com",
+               "mobile":"8884999168",
+               "birthday":"05/10/2010",
+               "photo":"/assets/img/childs/03.jpg",
+               "hobbies":[  
+                  "drawing",
+                  "singing"
+               ],
+			   "gallary":[  
+					"assets/img/gallary/1.jpg",
+					"assets/img/gallary/2.jpg",
+					"assets/img/gallary/3.jpg",
+					"assets/img/gallary/4.jpg",
+					"assets/img/gallary/5.jpg",
+					"assets/img/gallary/6.jpg"
+				 ],
+               "donor":"donor1"
+            },
+            {  
+               "name":"Ganesh",
+               "email":"2chandanjade@gmail.com",
+               "mobile":"8884999168",
+               "birthday":"25/10/2012",
+               "photo":"/assets/img/childs/01.jpg",
+               "hobbies":[  
+
+               ],
+			   "gallary":[  
+					"assets/img/gallary/7.jpg",
+					"assets/img/gallary/8.jpg",
+					"assets/img/gallary/9.jpg"
+				 ],
+               "donor":"donor1"
+            }
+         ]
+      },
+	  "mayukhknightrider":{  
+         "name":"Ramesh Ramamurthi",
+         "mobile":"8884999168",
+         "photo":"url",
+         "childs":[  
+            {  
+               "name":"Swathi",
+               "email":"2chandanjade@gmail.com",
+               "mobile":"8884999168",
+               "birthday":"05/10/2010",
+               "photo":"/assets/img/childs/03.jpg",
+               "hobbies":[  
+                  "drawing",
+                  "singing"
+               ],
+               "donor":"donor1"
+            },
+            {  
+               "name":"Ganesh",
+               "email":"2chandanjade@gmail.com",
+               "mobile":"8884999168",
+               "birthday":"25/10/2012",
+               "photo":"/assets/img/childs/01.jpg",
+               "hobbies":[  
+
+               ],
+               "donor":"donor1"
+            }
+         ]
+      },
+      "senthilraja39":{  
+         "name":"John Mcavoy",
+         "mobile":"9742720663",
+         "photo":"url",
+         "childs":[  
+            {  
+               "name":"Pooja",
+               "email":"2chandanjade@gmail.com",
+               "mobile":"8884999168",
+               "birthday":"28/11/2007",
+               "hobbies":[  
+                  "dancing"
+               ],
+               "photo":"/assets/img/childs/03.jpg",
+               "donor":"donor2"
+            }
+         ]
+      }
+   },
+   "childs":{  
+      "child1":{  
+         "name":"Swathi",
+         "email":"2chandanjade@gmail.com",
+         "mobile":"8884999168",
+         "birthday":"05/10/2010",
+         "photo":"url",
+         "hobbies":[  
+            "drawing",
+            "singing"
+         ],
+         "gallary":[  
+            "assets/img/gallary/1.jpg",
+            "assets/img/gallary/2.jpg",
+            "assets/img/gallary/3.jpg",
+            "assets/img/gallary/4.jpg",
+            "assets/img/gallary/5.jpg",
+            "assets/img/gallary/6.jpg"
+         ],
+         "donor":"donor1"
+      },
+      "child2":{  
+         "name":"Ganesh",
+         "email":"2chandanjade@gmail.com",
+         "mobile":"8884999168",
+         "birthday":"25/10/2012",
+         "photo":"url",
+         "hobbies":[  
+
+         ],
+         "donor":"donor1"
+      },
+      "child3":{  
+         "name":"Pooja",
+         "email":"2chandanjade@gmail.com",
+         "mobile":"8884999168",
+         "birthday":"28/11/2007",
+         "photo":"url",
+         "hobbies":[  
+            "dancing"
+         ],
+         "gallary":[  
+            "assets/img/gallary/7.jpg",
+            "assets/img/gallary/8.jpg",
+            "assets/img/gallary/9.jpg"
+         ],
+         "donor":"donor2"
+      }
+   },
+   "updates":{  
+      "2chandanjade":[  
+         {  
+            "child-id":"child1",
+            "text":"Today Swathi won firt prize in drawing competition at her school.",
+            "pic":"/assets/img/childs/03.jpg",
+            "timestamp":""
+         },
+         {  
+            "child-id":"child1",
+            "text":"Swathi working on her dancing skills ",
+            "pic":"/assets/img/childs/03.jpg"
+         },
+         {  
+            "child-id":"child2",
+            "text":"Ganesh learned some new words today",
+            "pic":"/assets/img/childs/01.jpg"
+         },
+         {  
+            "child-id":"child2",
+            "text":"Ganesh is getting good at dancing too",
+            "pic":"/assets/img/childs/01.jpg"
+         }
+      ],
+      "senthilraja39":[  
+         {  
+            "child-id":"child3",
+            "text":"Ganesh learned some new words today",
+            "pic":"/assets/img/childs/02.jpg"
+         },
+         {  
+            "child-id":"child3",
+            "text":"Ganesh is getting good at dancing too",
+            "pic":"/assets/img/childs/02.jpg"
+         }
+      ]
+   },
+   "educational-records":{  
+      "child1":{  
+         "year":"1st Std",
+         "school":"Sodews Educational Institue",
+         "marks":"93%"
+      },
+      "child3":{  
+         "year":"3rd Std",
+         "school":"Sodews Educational Institue",
+         "marks":"87%"
+      }
+   }
+}
