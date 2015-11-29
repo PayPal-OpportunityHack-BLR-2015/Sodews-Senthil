@@ -45,6 +45,8 @@ $ npm install
 
 $ node server.js
 
+http://localhost:8080
+
 Contact details:
 ----------------
 * Senthil - 97427 20663  - senthilraja39@gmail.com
