@@ -1,6 +1,6 @@
 
-SODEWS - Society for the Development of Economically Weaker Sections
-====================================================================
+SODEWS - Society for the Development of Economically Weaker Sections 
+=====================================================================
 
 Brief Overview :
 ----------------
@@ -8,10 +8,10 @@ Brief Overview :
 *Activities:*
 -----------
 This NGO works on programmes like
-1. Government Pre-Primary and Primary School Intervention Program 
-2. Academic Staff Support
-3. Health Initiatives
-4. Residential Special Training Camps
+  * Government Pre-Primary and Primary School Intervention Program 
+  * Academic Staff Support
+  * Health Initiatives
+  * Residential Special Training Camps
 and much more.
 
 *Donor-Child Relationship:*
@@ -25,37 +25,43 @@ Hence, the connectivity between a child and donor should always be encouraged th
 ---------------------
 This software application is meant for providing a such connect between a donor and a child
 by means of:
-* text messaging, file sharing and notification
-* donor to make online donation using PayPal
+* text messaging, file sharing and reminders
+* Support for both online and offline
+* Responsive design (Works good in all devices)
+* Login support
+* Pay through PayPal
 * Profile and History information
 
 
 Technical stack:
 ----------------
-* UI 	: Angular JS
-* Server/backend: Node JS
+* UI 	: AngularJS, JavaScript, MaterialDesign, Bootstrap
+* Server/backend: NodeJS, Express, lodash
 * Data Base: FireBase
 
 Steps to build code:
 --------------------
-No specific build is required as it is built on javasccript
+$ npm install 
 
+$ node server.js
+
+http://localhost:8080
 
 Contact details:
 ----------------
 * Senthil - 97427 20663  - senthilraja39@gmail.com
-* Ramsankar - 9841319300 - rams_green@yahoo.com
-* Mayukh - 9049357351    - roy.mayukh@yahoo.in
-* Chanden -8884999168    - 2chandanjade@gmail.com
-* Prince - 9789852021    - princejohnwesley@gmail.com
+* Ramsankar - 98413 19300 - rams_green@yahoo.com
+* Mayukh - 90493 57351    - roy.mayukh@yahoo.in
+* Chanden -88849 99168    - 2chandanjade@gmail.com
+* Prince - 97898 52021    - princejohnwesley@gmail.com
 
 Github:
 -------
-* Senthil - senthilporunan
+* Senthil - [senthilporunan] (https://github.com/senthilporunan)
 * Ramsankar - rbose
 * Mayukh - mayukhr
 * Chanden - chandenjade
-* Prince  - princejwesley
+* Prince  - [princejwesley] (https://github.com/princejwesley)
 
 Travis Integration:
 -------------------
