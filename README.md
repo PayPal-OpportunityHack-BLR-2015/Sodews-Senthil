@@ -53,11 +53,11 @@ http://localhost:8080
 
 Contact details:
 ----------------
-* Senthil - 97427 20663  - senthilraja39@gmail.com
-* Ramsankar - 98413 19300 - rams_green@yahoo.com
-* Mayukh - 90493 57351    - roy.mayukh@yahoo.in
-* Chanden -88849 99168    - 2chandanjade@gmail.com
-* Prince - 97898 52021    - princejohnwesley@gmail.com
+* Senthil 
+* Ramsankar
+* Mayukh 
+* Chanden 
+* Prince 
 
 Github:
 -------
