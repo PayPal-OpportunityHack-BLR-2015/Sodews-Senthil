@@ -56,7 +56,7 @@ Contact details:
 * Senthil 
 * Ramsankar
 * Mayukh 
-* Chanden 
+* Chandan 
 * Prince 
 
 Github:
@@ -64,7 +64,7 @@ Github:
 * Senthil - [senthilporunan] (https://github.com/senthilporunan)
 * Ramsankar - rbose
 * Mayukh - mayukhr
-* Chanden - chandenjade
+* Chandan - [chandanjade] (https://github.com/chandanjade)
 * Prince  - [princejwesley] (https://github.com/princejwesley)
 
 Travis Integration:
